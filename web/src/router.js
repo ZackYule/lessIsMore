@@ -1,29 +1,37 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Dashboard from "./views/Dashboard.vue";
-import Projects from "./views/Projects.vue";
-import Team from "./views/Team.vue";
+import Todolist from "./views/Todolist.vue";
+import Blog from "./views/Blog.vue";
+import Knowledge from "./views/Knowledge.vue";
+import Home from "./views/Home.vue";
 
 Vue.use(Router);
 
 export default new Router({
   mode: "history",
   base: process.env.BASE_URL,
+  linkActiveClass: "",
+  linkExactActiveClass: "",
   routes: [
     {
       path: "/",
-      name: "Dashboard",
-      component: Dashboard
+      name: "Home",
+      component: Home
     },
     {
-      path: "/Projects",
-      name: "Projects",
-      component: Projects
+      path: "/blog",
+      name: "Blog",
+      component: Blog
     },
     {
-      path: "/Team",
-      name: "Team",
-      component: Team
+      path: "/knowledge",
+      name: "Knowledge",
+      component: Knowledge
+    },
+    {
+      path: "/todolist",
+      name: "Todolist",
+      component: Todolist
     }
   ]
 });
