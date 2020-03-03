@@ -1,8 +1,8 @@
 <template>
   <div class="todolist">
     <v-img
-      src="/dark-daylight-eerie-environment-bcg.jpg"
-      alt="dark-daylight-eerie-environment-background"
+      src="/top-view-photo-of-ocean-waves-bcg.jpg"
+      alt="top-view-photo-of-ocean-waves-background"
     >
       <v-container class="my-5">
         <v-layout

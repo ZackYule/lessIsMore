@@ -10,7 +10,7 @@
         <v-img
           v-bind="props"
           :src="backpic"
-          gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"
+          gradient="to top right, rgba(57,73,171,.3), rgba(30,136,229,.6)"
         ></v-img>
       </template>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
@@ -87,7 +87,7 @@ export default {
     return {
       drawer: false,
       snackbar: false,
-      backpic: "/the-path-among-the-trees-nav.jpg",
+      backpic: "/photo-of-indoor-plants-nav.jpg",
       links: [
         { icon: "mdi-home", text: "Home", route: "/" },
         { icon: "mdi-head-lightbulb", text: "Knowledge", route: "/knowledge" },
@@ -98,25 +98,25 @@ export default {
         {
           icon: "mdi-home",
           text: "Home",
-          navpic: "/the-path-among-the-trees-nav.jpg",
+          navpic: "/photo-of-indoor-plants-nav.jpg",
           route: "/"
         },
         {
           icon: "mdi-head-lightbulb",
           text: "Knowledge",
-          navpic: "/conifer-evergreen-fir-trees-fog-nav.jpg",
+          navpic: "/highway-in-the-middle-of-forest-covered-in-fog-nav.jpg",
           route: "/knowledge"
         },
         {
           icon: "mdi-basketball-hoop-outline",
           text: "Blog",
-          navpic: "/conifer-evergreen-fir-trees-fog-nav.jpg",
+          navpic: "/black-asphalt-road-near-mountains-under-cloudy-sky-nav.jpg",
           route: "/blog"
         },
         {
           icon: "mdi-check-decagram",
           text: "Todolist",
-          navpic: "/dark-daylight-eerie-environment-nav.jpg",
+          navpic: "/top-view-photo-of-ocean-waves-nav.jpg",
           route: "/todolist"
         }
       ]

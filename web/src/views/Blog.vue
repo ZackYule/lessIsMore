@@ -1,8 +1,8 @@
 <template>
   <div class="blog">
     <v-img
-      src="/the-path-among-the-trees-bcg.jpg"
-      alt="conifer-evergreen-fir-trees-fog-background"
+      src="/black-asphalt-road-near-mountains-under-cloudy-sky-bcg.jpg"
+      alt="black-asphalt-road-near-mountains-under-cloudy-sky-background"
     >
       <v-container class="my-0">
         <v-form class="px-3" ref="form">

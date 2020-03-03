@@ -1,8 +1,8 @@
 <template>
   <div class="knowledg">
     <v-img
-      src="/conifer-evergreen-fir-trees-fog-background.jpg"
-      alt="conifer-evergreen-fir-trees-fog-background"
+      src="/highway-in-the-middle-of-forest-covered-in-fog-bcg.jpg"
+      alt="highway-in-the-middle-of-forest-covered-in-fog-background"
     >
       <v-container class="my-5">
         <v-form class="px-3" ref="form">
